@@ -59,7 +59,6 @@ describe("[Challenge] Unstoppable", function () {
     /** SUCCESS CONDITIONS - NO NEED TO CHANGE ANYTHING HERE */
 
     // It is no longer possible to execute flash loans
-    await receiverContract.executeFlashLoan(100n * 10n ** 18n);
     await expect(receiverContract.executeFlashLoan(100n * 10n ** 18n)).to.be.reverted;
   });
 });

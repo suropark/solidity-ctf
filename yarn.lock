@@ -4081,6 +4081,11 @@
     "astral-regex" "^2.0.0"
     "is-fullwidth-code-point" "^3.0.0"
 
+"solady@^0.0.71":
+  "integrity" "sha512-bGTWoj6s+f5ihZ7OfC15CfCBSkq/OX8yl0Ls7ldUC7DiJ6wjjyOB7FowgxZuA5hPO3aRaV6BZnFC97wgxOboeg=="
+  "resolved" "https://registry.npmjs.org/solady/-/solady-0.0.71.tgz"
+  "version" "0.0.71"
+
 "solc@0.7.3":
   "integrity" "sha512-GAsWNAjGzIDg7VxzP6mPjdurby3IkGCjQcM8GFYZT6RyaoUZKmMU6Y7YwG+tFGhv7dwZ8rmR4iwFDrrD99JwqA=="
   "resolved" "https://registry.npmjs.org/solc/-/solc-0.7.3.tgz"
