@@ -37,9 +37,10 @@ contract SideEntranceLenderPool {
     }
 
     function flashLoan(uint256 amount) external {
-        uint256 balanceBefore = address(this).balance; 
+        uint256 balanceBefore = address(this).balance;
         IFlashLoanEtherReceiver(msg.sender).execute{value: amount}();
 
+        // 현재 밸런스로 체크함, deposit 생각안함
         if (address(this).balance < balanceBefore) revert RepayFailed();
     }
 }
